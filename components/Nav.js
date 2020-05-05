@@ -32,6 +32,11 @@ export function Nav() {
           <a>Sidebar</a>
         </Link>
       </div>
+      <div>
+        <Link href="/transitions">
+          <a>transitions</a>
+        </Link>
+      </div>
     </nav>
   );
 }

@@ -15,7 +15,10 @@ __[Url](https://clever-panini-561ffa.netlify.app/sidebar)__
 - no animations for now, probably the next step
 
 ### Bugs
-[] when switching from fullwidth to toggled and right menu takes the coordinates of the longer element...
+[x] when switching from fullwidth to toggled and right menu takes the coordinates of the longer element...
 
 ### Todo
-[] toggle arrow when clicking main item 
+[x] toggle arrow when clicking main item 
+
+### Transitions
+[] slide down transition when expanding

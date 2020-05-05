@@ -51,7 +51,7 @@ function Sidebar() {
           wrapper={children => <div className="wrapper" style={{
             position: "absolute",
             top,
-            left: right,
+            left: 60,
           }}>{children}</div>}
         >
           <ListItems 
