@@ -1,0 +1,2 @@
+## Learn how to publish react components to github. No need to think of any excuses, you need that knowledge. Just don't give up in the first hour and you'll be fine.
+You can simply get a component we already have and use, so you don't have to write your own or don't have think what to do. Just publish and use.s

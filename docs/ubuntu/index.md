@@ -1,0 +1,1 @@
+## [Fix](https://askubuntu.com/questions/132440/headphone-jack-not-working) audio not coming from headphones 
