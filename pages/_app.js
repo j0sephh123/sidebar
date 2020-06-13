@@ -6,7 +6,7 @@ import "../styles.css";
 import "../bootstrap.css";
 import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 import { ThemeProvider } from "styled-components";
-import store from "../redux/store";
+import store from "../src/redux/store";
 
 const theme = {
   colors: {
