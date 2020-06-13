@@ -14,6 +14,12 @@ module.exports = {
     displayAllHeaders: false,
     sidebar: [
       {
+        title: "sidebar",
+        path: "/sidebar/",
+        collapsible: true,
+        sidebarDepth: 2,
+      },
+      {
         title: "WP - The king",
         path: "/wp/",
         collapsible: true,

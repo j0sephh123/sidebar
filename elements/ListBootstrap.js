@@ -1,4 +1,4 @@
-function ListBootstrap({ children, onClick, active, setState, state }) {
+function ListBootstrap({ children, toggleSecondLevelItem, active, setState, state }) {
 
   const callback = el => {
     // active element - so one of three
@@ -16,7 +16,7 @@ function ListBootstrap({ children, onClick, active, setState, state }) {
   return (
     <li
       ref={callback}
-      onClick={onClick}
+      onClick={toggleSecondLevelItem}
       className={`${active ? "active" : null} c-hand list-group-item d-flex justify-content-between align-items-center`}
     >{children}</li>
   )

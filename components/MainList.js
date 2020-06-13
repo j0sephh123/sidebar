@@ -2,7 +2,8 @@ import ListBootstrap from '../elements/ListBootstrap'
 
 function MainList({ item, setState, active, toggled, state }) {
 
-  const toggle = () => {
+  const toggleSecondLevelItem = () => {
+    console.log("action: toggleSecondLevelItem");
     setState(state => {
       console.log('toggle');
       return ({
@@ -15,7 +16,11 @@ function MainList({ item, setState, active, toggled, state }) {
 
 
   return (
-    <ListBootstrap state={state} active={active} onClick={toggle} setState={setState}>
+    <ListBootstrap 
+      state={state} 
+      active={active} 
+      toggleSecondLevelItem={toggleSecondLevelItem} 
+      setState={setState}>
       <div className="d-flex justify-content-between">
         <span className={`${!toggled ? "pr-3" : null}`}>
           <i className={item.icon}></i>

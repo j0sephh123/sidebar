@@ -1,6 +1,7 @@
 function ListItem({ listItem, setState, state }) {
 
   const changeSlug = () => {
+    console.log('action: change slug');
     setState(prevState => {
       return ({
         ...prevState,
