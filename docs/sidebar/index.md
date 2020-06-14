@@ -5,6 +5,9 @@ __[Url](https://epic-carson-032219.netlify.app/)__
 ## Why is there a documentation for something so small ?
 Too much past trauma of looking at code without any idea what it does, I'm not even talking about inside the code, I just want 1 sentence what's the purpose of a code chunk..
 
+## Why is there a documentation for something so small ?
+Too much past trauma of looking at code without any idea what it does, I'm not even talking about inside the code, I just want 1 sentence what's the purpose of a code chunk..
+
 ## What's the point of that - the idea is to become sidebar builder component, have different themes, structure and so on.  
 Since it's a SSR: 
 - probably have a config file with some data, 
