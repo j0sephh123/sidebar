@@ -1,11 +1,10 @@
 import ListItem from "../components/ListItem";
 
-function ListItems({ listChildren, state, setState }) {
+function ListItems({ listChildren, dispatch }) {
   return listChildren.map((listItem) => {
     return (
       <ListItem
-        state={state}
-        setState={setState}
+        dispatch={dispatch}
         key={listItem.id}
         listItem={listItem}
       />

@@ -1,11 +1,14 @@
 ## React Sidebar component
 
-__[Url](https://clever-panini-561ffa.netlify.app/sidebar)__
+__[Url](https://epic-carson-032219.netlify.app/)__
+
+## Why is there a documentation for something so small ?
+Too much past trauma of looking at code without any idea what it does, I'm not even talking about inside the code, I just want 1 sentence what's the purpose of a code chunk..
 
 ## What's the point of that - the idea is to become sidebar builder component, have different themes, structure and so on.  
 Since it's a SSR: 
 - probably have a config file with some data, 
-- have some kind of an electron or cli to modify it, 
+- have some kind of an __electron__ or __repl__ to modify it, 
 - basically have edit mode, where one can modify different stuff - text, icons, structure, links, etc.
 
 ## Start with:
@@ -22,21 +25,11 @@ Let's try with redux
 - I have used that for demo before that, so it has remains of `strapi` and `styled-components`
 - no animations for now, probably the next step
 
-### Bugs
-[x] when switching from fullwidth to toggled and right menu takes the coordinates of the longer element...
-
-### Todo
-[x] toggle arrow when clicking main item 
-[x] use [styled](https://styled-components.com/)
-[x] Just add redux, I know it's an overkill, but why not ?
-[] Get rid of bootstrap 
-
-### Transitions
-[] slide down transition when expanding
-
-### Workflow of the component
-__Entry point__ - `pages/index.js`
-
+### Basic explanation
+__Entry point__ - `pages/index.js`  
+- actions file names end with __A__
+- reducers file names end with __R__
+- elements __E__
 
 ### Libraries already used or planning to use
 
@@ -59,3 +52,20 @@ __Testing__ [React docs for that](https://reactjs.org/docs/testing.html#tools)
 [Jest](https://jestjs.io/)   
 [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)  
 
+## Workflow
+
+### Todo
+[x] toggle arrow when clicking main item 
+[x] use [styled](https://styled-components.com/)
+[x] Just add redux, I know it's an overkill, but why not ?
+[x] remove reduntant `imports`
+[x] use better names, i.e _FlyingMenu_ instead of __SecondMenu__
+[] Get rid of `bootstrap` 
+
+### Bugs
+[x] when switching from fullwidth to toggled and right menu takes the coordinates of the longer element...
+[] When going from fullwidth to collapsed, the flying menu is appearing instantly before the container has slided to the end - not looking good
+[] On collapsed menu, when clicking on the bars, the text appears instantly and it starts sliding from there, not good looking either.
+
+### Transitions
+[] slide down transition when expanding

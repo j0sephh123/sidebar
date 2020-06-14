@@ -1,34 +1,22 @@
-import ListBootstrap from '../elements/ListBootstrap'
+import ListBootstrap from '../elements/ListBootstrap';
 
-function MainList({ item, setState, active, toggled, state }) {
-
-  const toggleSecondLevelItem = () => {
-    console.log("action: toggleSecondLevelItem");
-    setState(state => {
-      console.log('toggle');
-      return ({
-        ...state, 
-        activeList: state.activeList === item.id ? null : item.id,
-        activeListCoordinates: null,
-      })
-    });
-  }
-
+function MainList({ element, active, dispatch, sidebar }) {
 
   return (
     <ListBootstrap 
-      state={state} 
+      activeListCoordinates={sidebar.activeListCoordinates}
+      element={element}
       active={active} 
-      toggleSecondLevelItem={toggleSecondLevelItem} 
-      setState={setState}>
+      dispatch={dispatch}
+      >
       <div className="d-flex justify-content-between">
-        <span className={`${!toggled ? "pr-3" : null}`}>
-          <i className={item.icon}></i>
+        <span className={`${!sidebar.toggled ? "pr-3" : null}`}>
+          <i className={element.icon}></i>
         </span>
-        {!toggled && <span className="font-weight-bold">{item.name}</span>}
+        {!sidebar.toggled && <span className="font-weight-bold">{element.name}</span>}
       </div>
       <div className="arrow">
-        {!toggled && <span className={`fa fa-chevron-right ${active ? "rotate" : ""}`}></span>}
+        {!sidebar.toggled && <span className={`fa fa-chevron-right ${active ? "rotate" : ""}`}></span>}
       </div>
     </ListBootstrap>
   )
