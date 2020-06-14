@@ -21,13 +21,13 @@ For me __portflio__ is completely meaningless, it only helps you find a job and 
 
 The main question here is ? Is it possible to find a job without a portfolio /s ?  
 
-But still, I would like to continue on that and even have the audacity to say that I find Vuepress to be more "impressive / interesting" than googling for [this](https://www.canva.com/learn/portfolio/) and using premade stuff.  
+But still, I would like to continue on that and even have the audacity to say that I find Vuepress to be more "impressive / interesting" than googling for [this](https://www.canva.com/learn/portfolio/) and using premade stuff. Not saying the person isn't creating it on his own, just -> where is the creativity ?
 
 - _But... you are doing the same with Vuepress.._  
 Actually, that's correct... To some extend...
 
 - _Ok, let's continue.. Let's hear yours arguments.._  
-When someone is trying to __explain__ something, you can quickly grasp what is his level of __understanding__. (_Real nice, you gotta be a very smart one.. Where exactly did you copy that from?_)
+When someone is trying to __explain__ something, you can quickly grasp what is his level of __understanding__. 
 How do you know that this person __made__ the portfolio things exactly?
 
 ### Thoughts
@@ -60,14 +60,7 @@ Well, sorry to disappoint you.
 - _Why are you using Vuepress, don't you claim to be a React developer ?_ 
 Yes, but I like Vuepress more than Gatsby. I'm open to suggestions for a better library to do this in React and I will definitely try it.
 
-- _Anyway, I want to see something after all ?_  
-[This](https://github.com/j0sephh123/Shop) is from May 2018. The end __result__ is in its README. I guess, I didn't follow on the promises made back then.
 
-- _What a piece of $@#%... And you claim to be a React developer ?_  
-Well, I am.. I never said I'm a good one, though..
-
-- _Is this all you got ?_  
-`ctrl + f` How does someone then assess your coding skills
 
 
 
