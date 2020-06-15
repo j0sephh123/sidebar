@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.10.7",
+    "inquirer": "^7.1.0",
     "vuepress": "^1.5.1"
   }
 }

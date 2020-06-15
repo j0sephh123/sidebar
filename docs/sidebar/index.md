@@ -35,7 +35,6 @@ __Entry point__ - `pages/index.js`
 - elements __E__
 
 ### Libraries already used or planning to use
-
 __Framework__
 [Next](https://nextjs.org/) - I have the least experience with this out of the three, so that's why.
 
@@ -55,20 +54,22 @@ __Testing__ [React docs for that](https://reactjs.org/docs/testing.html#tools)
 [Jest](https://jestjs.io/)   
 [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)  
 
-## Workflow
+## Ideas
+Created a `repl` folder where I intend to use [Inquirer.js](https://github.com/SBoudrias/Inquirer.js/) to generate `sidebar.json`.  
+I'm still planning that. I've done few other apps with Inquirer, but didn't like my code structure in any of them, so now I intend to plan carefully before including it.
 
 ### Todo
-[x] toggle arrow when clicking main item 
-[x] use [styled](https://styled-components.com/)
-[x] Just add redux, I know it's an overkill, but why not ?
-[x] remove reduntant `imports`
-[x] use better names, i.e _FlyingMenu_ instead of __SecondMenu__
-[] Get rid of `bootstrap` 
+[x] toggle arrow when clicking main item  
+[x] use [styled](https://styled-components.com/)  
+[x] Just add redux, I know it's an overkill, but why not ?  
+[x] remove reduntant `imports`  
+[x] use better names, i.e _FlyingMenu_ instead of __SecondMenu__  
+[] Get rid of `bootstrap`   
 
 ### Bugs
-[x] when switching from fullwidth to toggled and right menu takes the coordinates of the longer element...
-[] When going from fullwidth to collapsed, the flying menu is appearing instantly before the container has slided to the end - not looking good
-[] On collapsed menu, when clicking on the bars, the text appears instantly and it starts sliding from there, not good looking either.
+[x] when switching from fullwidth to toggled and right menu takes the coordinates of the longer element...  
+[] When going from fullwidth to collapsed, the flying menu is appearing instantly before the container has slided to the end - not looking good  
+[] On collapsed menu, when clicking on the bars, the text appears instantly and it starts sliding from there, not good looking either.  
 
 ### Transitions
 [] slide down transition when expanding

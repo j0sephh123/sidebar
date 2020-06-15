@@ -7,7 +7,10 @@ import FlyingMenu from "../components/FlyingMenu";
 
 import { AppContainerE } from "../elements/AppContainerE";
 
-function SidebarView({ dispatch, sidebar }) {
+import sidebarData from "../../sidebar.json"
+
+function SidebarView({ dispatch, sidebar, stars }) {
+
   return (
     <Fragment>
       <h3>Slug: {sidebar.slug}</h3>
@@ -24,6 +27,5 @@ function SidebarView({ dispatch, sidebar }) {
     </Fragment>
   );
 }
-
 
 export default connect(sidebar => sidebar, null)(SidebarView);
